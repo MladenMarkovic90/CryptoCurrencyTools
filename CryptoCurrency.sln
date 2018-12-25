@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.Watcher", "Watcher\CryptoCurrency.Watcher.csproj", "{2A2375CE-4C78-45FC-B463-44D74E2085B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCurrency.Lib", "Lib\CryptoCurrency.Lib.csproj", "{2005C7B7-873F-41F4-BB2F-9F8395AAEC61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeChecker", "ExchangeChecker\ExchangeChecker.csproj", "{C92052C3-F36D-4832-B0A9-07306C0BDBDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A2375CE-4C78-45FC-B463-44D74E2085B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A2375CE-4C78-45FC-B463-44D74E2085B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A2375CE-4C78-45FC-B463-44D74E2085B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A2375CE-4C78-45FC-B463-44D74E2085B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2005C7B7-873F-41F4-BB2F-9F8395AAEC61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2005C7B7-873F-41F4-BB2F-9F8395AAEC61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2005C7B7-873F-41F4-BB2F-9F8395AAEC61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2005C7B7-873F-41F4-BB2F-9F8395AAEC61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C92052C3-F36D-4832-B0A9-07306C0BDBDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92052C3-F36D-4832-B0A9-07306C0BDBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92052C3-F36D-4832-B0A9-07306C0BDBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C92052C3-F36D-4832-B0A9-07306C0BDBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6371D56A-FD53-41B0-9EE8-4210A2D0A348}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mladenmarkovic90.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ExchangeChecker\\ExchangeChecker.csproj
+		SccProjectName1 = ExchangeChecker
+		SccLocalPath1 = ExchangeChecker
+		SccProjectUniqueName2 = Lib\\CryptoCurrency.Lib.csproj
+		SccProjectName2 = Lib
+		SccLocalPath2 = Lib
+		SccProjectUniqueName3 = Watcher\\CryptoCurrency.Watcher.csproj
+		SccProjectName3 = Watcher
+		SccLocalPath3 = Watcher
+	EndGlobalSection
+EndGlobal
